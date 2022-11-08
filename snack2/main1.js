@@ -23,3 +23,13 @@ let students = [
     { name: 'Piero', id: 102, grades: 50 },
     { name: 'Francesca', id: 120, grades: 84 },
   ];
+
+
+let over70 = [];
+
+let over70120 = [];
+
+
+
+
+
