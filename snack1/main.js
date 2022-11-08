@@ -8,3 +8,22 @@ Eseguiamo questo esercizio prima con forEach e poi con filter.
 esempio: dati i valori min: 2 e come max: 4 i nomi nell'array nuovo saranno i nomi compresi tra queste posizioni 2 e 4 */
 
 const myArray = ['Michele', 'Fabio', 'Roberto', 'Giovanni', 'Simone', 'Chiara'];
+const array2 = [];
+
+let min = parseInt( prompt('dammi in numero minimo') );
+let max = parseInt( prompt('dammi in numero massimo') );
+
+function estrazioneNomi(min, max){
+    myArray.forEach( ( element, index ) => {
+
+        if ( index >= min && index <= max ) {
+
+            array2.push(element);
+        }
+    } );
+
+    
+}
+
+console.log(array2);
+estrazioneNomi(min, max)
