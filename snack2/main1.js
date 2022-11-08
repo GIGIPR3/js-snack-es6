@@ -25,11 +25,22 @@ let students = [
   ];
 
 
-let over70 = [];
+/* let over70 = [];
 
-let over70120 = [];
+let over70120 = []; */
 
+let arrUppercase = students.map( (element)=>{
 
+  return element.name.toUpperCase()
+} );
 
+console.log( arrUppercase )
 
+let arrGrades1 = students.filter( (element) =>{
+  if (element.grades > 70){
 
+    return true;
+  }
+} )
+
+console.log(arrUppercase);
